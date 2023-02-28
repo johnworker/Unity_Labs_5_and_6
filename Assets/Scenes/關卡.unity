@@ -838,7 +838,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 1c433c7ad97c1eb498aaa927d072602f, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  Player: {fileID: 0}
+  Player: {fileID: 81245634}
   Angle: 3
   ZoomSpeed: 0.25
 --- !u!1 &857421586

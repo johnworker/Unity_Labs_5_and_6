@@ -7,8 +7,8 @@ namespace henry
     public class MoveCamera : MonoBehaviour
     {
         public Transform Player;
-        public float Angle = 3F;
-        public float ZoomSpeed = 0.25F;
+        public float Angle = 3f;
+        public float ZoomSpeed = 0.25f;
 
         void Start()
         {
@@ -21,7 +21,7 @@ namespace henry
             var scrollWheelValue = Input.GetAxis("Mouse ScrollWheel");
             if(scrollWheelValue != 0)
             {
-                transform.position *= (1F + scrollWheelValue * ZoomSpeed);
+                transform.position *= (1f + scrollWheelValue * ZoomSpeed);
             }
             if (Input.GetKey(KeyCode.RightArrow))
             {
