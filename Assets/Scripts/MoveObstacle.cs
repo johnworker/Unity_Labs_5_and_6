@@ -16,6 +16,7 @@ namespace henry
         void Update()
         {
             OnMouseDrag();
+            Debug.Log(transform.position.y);
         }
 
         private void OnMouseDrag()
