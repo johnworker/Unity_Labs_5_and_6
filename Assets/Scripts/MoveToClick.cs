@@ -32,7 +32,10 @@ namespace henry
 
                 if (Physics.Raycast(ray, out hit, 100))
                 {
-                    agent.SetDestination(hit.point);
+                    if(hit.collider.gameObject.tag != "Obstacle")
+                    {
+                        agent.SetDestination(hit.point);
+                    }
                 }
             }
         }
